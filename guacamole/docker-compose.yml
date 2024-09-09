@@ -28,6 +28,12 @@ services:
       POSTGRES_HOSTNAME: guacamole-postgres
       POSTGRES_PASSWORD: "ChooseYourOwnPasswordHere1234"
       POSTGRES_USER: guacamole_user
+      LDAP_HOSTNAME: guacamole-openldap
+      LDAP_USER_BASE_DN: ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+      LDAP_USERNAME_ATTRIBUTE: uid
+      LDAP_SEARCH_BIND_DN: cn=admin,dc=cmc,dc=pr,dc=gov,dc=br
+      LDAP_SEARCH_BIND_PASSWORD: admin
+      # LDAP_USER_SEARCH_FILTER:
     image: guacamole/guacamole
     volumes:
       - ./record:/record:rw
