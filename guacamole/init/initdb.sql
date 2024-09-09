@@ -789,3 +789,35 @@ FROM (
 JOIN guacamole_entity          ON permissions.username = guacamole_entity.name AND guacamole_entity.type = 'USER'
 JOIN guacamole_entity affected ON permissions.affected_username = affected.name AND guacamole_entity.type = 'USER'
 JOIN guacamole_user            ON guacamole_user.entity_id = affected.entity_id;
+
+CREATE USER lpg2024;
+CREATE ROLE dtic;
+GRANT dtic TO lpg2024;
+
+INSERT INTO guacamole_entity (name, type) VALUES ('gaspe', 'USER');
+
+INSERT INTO guacamole_user (entity_id, password_hash, password_date)
+SELECT
+  entity_id,
+  decode('89e8b9518d92279489bbdee26f3dc646d921d89a15afbd3a3e0ad695328a3da0', 'hex'),  -- Replace with the actual password hash
+  CURRENT_TIMESTAMP
+FROM guacamole_entity WHERE name = 'gaspe' AND type = 'USER';
+
+INSERT INTO guacamole_entity (name, type)
+SELECT 'dtic', 'USER_GROUP'
+WHERE NOT EXISTS (SELECT 1 FROM guacamole_entity WHERE name = 'dtic' AND type = 'USER_GROUP');
+
+INSERT INTO guacamole_user_group (entity_id)
+SELECT entity_id FROM guacamole_entity WHERE name = 'dtic' AND type = 'USER_GROUP'
+ON CONFLICT DO NOTHING;  -- This ensures the group is not inserted again if it already exists
+
+INSERT INTO guacamole_user_group_member (user_group_id, member_entity_id)
+VALUES (
+  (SELECT user_group_id FROM guacamole_user_group WHERE entity_id = (SELECT entity_id FROM guacamole_entity WHERE name = 'dtic' AND type = 'USER_GROUP')),
+  (SELECT entity_id FROM guacamole_entity WHERE name = 'gaspe' AND type = 'USER')
+);
+
+
+
+-- SET @salt = UNHEX(SHA2(UUID(), 256));
+-- INSERT INTO guacamole_user (username, password_salt, password_hash, password_date) VALUES ('testuser', @salt, UNHEX(SHA2(CONCAT('testpass', HEX(@salt)), 256)), NOW());
