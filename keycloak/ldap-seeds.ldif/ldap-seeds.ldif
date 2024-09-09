@@ -1,0 +1,325 @@
+dn: ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: organizationalUnit
+ou: grupos
+description: Lista de grupos
+
+dn: ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: organizationalUnit
+ou: usuarios
+description:: TGlzdGEgZGUgdXN1w6FyaW9zCg==
+
+dn: cn=rh,ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10195
+description: Usuarios do RH
+memberUid: gavio.carrilho
+memberUid: diamantino.figueiredo
+memberUid: egas.bogalho
+memberUid: hermesinda.bezerril
+cn: rh
+
+dn: cn=ti,ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10196
+description: Usuarios do TI
+memberUid: ismael.semedo
+memberUid: maria.gomez
+memberUid: neusa.fogaca
+memberUid: tiago.boga
+cn: ti
+
+dn: cn=contab,ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10197
+description: Usuarios do RH
+memberUid: uriel.villaverde
+memberUid: xenia.tabosa
+memberUid: adelio.figueiredo
+memberUid: almeno.quinta
+memberUid: daniela.bulhosa
+cn: contab
+
+dn: uid=gavio.carrilho,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: gavio.carrilho
+uidNumber: 1025
+gidNumber: 10195
+displayName:: R8OhdmlvIENhcnJpbGhvCg==
+sn: Carrilho
+cn:: R8OhdmlvIENhcnJpbGhvCg==
+givenName:: R8OhdmlvCg==
+mail: gavio.carrilho@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18225
+shadowMax: 365
+homeDirectory: /home/gavio.carrilho
+
+dn: uid=diamantino.figueiredo,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: diamantino.figueiredo
+uidNumber: 1026
+gidNumber: 10195
+displayName: Diamantino Figueiredo
+sn: Figueiredo
+cn: Diamantino Figueiredo
+givenName: Diamantino
+mail: diamantino.figueiredo@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18235
+shadowMax: 365
+homeDirectory: /home/diamantino.figueiredo
+
+dn: uid=egas.bogalho,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: egas.bogalho
+uidNumber: 1027
+gidNumber: 10195
+displayName: Egas Bogalho
+sn: Bogalho
+cn: Egas Bogalho
+givenName: Egas
+mail: egas.bogalho@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18245
+shadowMax: 365
+homeDirectory: /home/egas.bogalho
+
+dn: uid=hermesinda.bezerril,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: hermesinda.bezerril
+uidNumber: 1028
+gidNumber: 10195
+displayName: Hermesinda Bezerril
+sn: Bezerril
+cn: Hermesinda Bezerril
+givenName: Hermesinda
+mail: hermesinda.bezerril@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18255
+shadowMax: 365
+homeDirectory: /home/hermesinda.bezerril
+
+dn: uid=ismael.semedo,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: ismael.semedo
+uidNumber: 1029
+gidNumber: 10196
+displayName: Ismael Semedo
+sn: Semedo
+cn: Ismael Semedo
+givenName: Ismael
+mail: ismael.semedo@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18265
+shadowMax: 365
+homeDirectory: /home/ismael.semedo
+
+dn: uid=lpg2024,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: lpg2024
+uidNumber: 1029
+gidNumber: 10196
+displayName: Lucas Gasperin
+sn: Gasperin
+cn: Lucas Gasperin
+givenName: Lucas
+mail: lpg2024@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18265
+shadowMax: 365
+homeDirectory: /home/lpg2024
+
+dn: uid=maria.gomez,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: maria.gomez
+uidNumber: 1030
+gidNumber: 10196
+displayName:: TWFyaWEgR8OzbWV6Cg==
+sn:: R8OzbWV6Cg==
+cn:: TWFyaWEgR8OzbWV6Cg==
+givenName: Maria
+mail: maria.gomez@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18275
+shadowMax: 365
+homeDirectory: /home/maria.gomez
+
+dn: uid=neusa.fogaca,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: neusa.fogaca
+uidNumber: 1031
+gidNumber: 10196
+displayName:: TmV1c2EgRm9nYcOnYQo=
+sn:: Rm9nYcOnYQo=
+cn:: TmV1c2EgRm9nYcOnYQo=
+givenName: Neusa
+mail: neusa.fogaca@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18285
+shadowMax: 365
+homeDirectory: /home/neusa.fogaca
+
+dn: uid=tiago.boga,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tiago.boga
+uidNumber: 1032
+gidNumber: 10196
+displayName: Tiago Boga
+sn: Boga
+cn: Tiago Boga
+givenName: Tiago
+mail: tiago.boga@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18295
+shadowMax: 365
+homeDirectory: /home/tiago.boga
+
+dn: uid=uriel.villaverde,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: uriel.villaverde
+uidNumber: 1033
+gidNumber: 10197
+displayName: Uriel Villaverde
+sn: Villaverde
+cn: Uriel Villaverde
+givenName: Uriel
+mail: uriel.villaverde@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18305
+shadowMax: 365
+homeDirectory: /home/uriel.villaverde
+
+dn: uid=xenia.tabosa,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: xenia.tabosa
+uidNumber: 1034
+gidNumber: 10197
+displayName:: WMOpbmlhIFRhYm9zYQo=
+sn: Tabosa
+cn:: WMOpbmlhIFRhYm9zYQo=
+givenName:: WMOpbmlhCg==
+mail: xenia.tabosa@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18315
+shadowMax: 365
+homeDirectory: /home/xenia.tabosa
+
+dn: uid=adelio.figueiredo,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: adelio.figueiredo
+uidNumber: 1035
+gidNumber: 10197
+displayName:: QWTDqWxpbyBGaWd1ZWlyZWRvCg==
+sn: Figueiredo
+cn:: QWTDqWxpbyBGaWd1ZWlyZWRvCg==
+givenName:: QWTDqWxpbwo=
+mail: adelio.figueiredo@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18325
+shadowMax: 365
+homeDirectory: /home/adelio.figueiredo
+
+dn: uid=almeno.quinta,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: almeno.quinta
+uidNumber: 1036
+gidNumber: 10197
+displayName: Almeno Quinta
+sn: Quinta
+cn: Almeno Quinta
+givenName: Almeno
+mail: almeno.quinta@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18335
+shadowMax: 365
+homeDirectory: /home/almeno.quinta
+
+dn: uid=daniela.bulhosa,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: daniela.bulhosa
+uidNumber: 1037
+gidNumber: 10197
+displayName: Daniela Bulhosa
+sn: Bulhosa
+cn: Daniela Bulhosa
+givenName: Daniela
+mail: daniela.bulhosa@cmc.pr.gov.br
+userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
+shadowLastChange: 18345
+shadowMax: 365
+homeDirectory: /home/daniela.bulhosa
