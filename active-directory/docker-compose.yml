@@ -1,0 +1,10 @@
+services:
+  samba-ad:
+    build: .
+    ports:
+      - "389:389"
+      - "636:636"
+    volumes:
+      - ./tls:/etc/samba/tls
+    environment:
+      - SAMBA_DOMAIN=EXEMPLO - SAMBA_REALM=EXEMPLO.LOCAL
