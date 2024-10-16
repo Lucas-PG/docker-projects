@@ -1,16 +1,16 @@
-dn: ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+dn: ou=grupos,dc=gws,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: grupos
 description: Lista de grupos
 
-dn: ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: usuarios
 description:: TGlzdGEgZGUgdXN1w6FyaW9zCg==
 
-dn: cn=rh,ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+dn: cn=rh,ou=grupos,dc=gws,dc=com
 objectClass: top
 objectClass: posixGroup
 gidNumber: 10195
@@ -21,7 +21,7 @@ memberUid: egas.bogalho
 memberUid: hermesinda.bezerril
 cn: rh
 
-dn: cn=ti,ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+dn: cn=ti,ou=grupos,dc=gws,dc=com
 objectClass: top
 objectClass: posixGroup
 gidNumber: 10196
@@ -32,7 +32,7 @@ memberUid: neusa.fogaca
 memberUid: tiago.boga
 cn: ti
 
-dn: cn=contab,ou=grupos,dc=cmc,dc=pr,dc=gov,dc=br
+dn: cn=contab,ou=grupos,dc=gws,dc=com
 objectClass: top
 objectClass: posixGroup
 gidNumber: 10197
@@ -44,7 +44,7 @@ memberUid: almeno.quinta
 memberUid: daniela.bulhosa
 cn: contab
 
-dn: uid=gavio.carrilho,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=gavio.carrilho,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -58,13 +58,13 @@ displayName:: R8OhdmlvIENhcnJpbGhvCg==
 sn: Carrilho
 cn:: R8OhdmlvIENhcnJpbGhvCg==
 givenName:: R8OhdmlvCg==
-mail: gavio.carrilho@cmc.pr.gov.br
+mail: gavio.carrilho@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18225
 shadowMax: 365
 homeDirectory: /home/gavio.carrilho
 
-dn: uid=diamantino.figueiredo,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=diamantino.figueiredo,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -78,13 +78,13 @@ displayName: Diamantino Figueiredo
 sn: Figueiredo
 cn: Diamantino Figueiredo
 givenName: Diamantino
-mail: diamantino.figueiredo@cmc.pr.gov.br
+mail: diamantino.figueiredo@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18235
 shadowMax: 365
 homeDirectory: /home/diamantino.figueiredo
 
-dn: uid=egas.bogalho,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=egas.bogalho,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -98,13 +98,13 @@ displayName: Egas Bogalho
 sn: Bogalho
 cn: Egas Bogalho
 givenName: Egas
-mail: egas.bogalho@cmc.pr.gov.br
+mail: egas.bogalho@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18245
 shadowMax: 365
 homeDirectory: /home/egas.bogalho
 
-dn: uid=hermesinda.bezerril,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=hermesinda.bezerril,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -118,13 +118,13 @@ displayName: Hermesinda Bezerril
 sn: Bezerril
 cn: Hermesinda Bezerril
 givenName: Hermesinda
-mail: hermesinda.bezerril@cmc.pr.gov.br
+mail: hermesinda.bezerril@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18255
 shadowMax: 365
 homeDirectory: /home/hermesinda.bezerril
 
-dn: uid=ismael.semedo,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=ismael.semedo,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -138,13 +138,13 @@ displayName: Ismael Semedo
 sn: Semedo
 cn: Ismael Semedo
 givenName: Ismael
-mail: ismael.semedo@cmc.pr.gov.br
+mail: ismael.semedo@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18265
 shadowMax: 365
 homeDirectory: /home/ismael.semedo
 
-dn: uid=lpg2024,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=lpg2024,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -158,13 +158,13 @@ displayName: Lucas Gasperin
 sn: Gasperin
 cn: Lucas Gasperin
 givenName: Lucas
-mail: lpg2024@cmc.pr.gov.br
+mail: lpg2024@gws.com
 userPassword: camera
 shadowLastChange: 18265
 shadowMax: 365
 homeDirectory: /home/lpg2024
 
-dn: uid=maria.gomez,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=maria.gomez,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -178,13 +178,13 @@ displayName:: TWFyaWEgR8OzbWV6Cg==
 sn:: R8OzbWV6Cg==
 cn:: TWFyaWEgR8OzbWV6Cg==
 givenName: Maria
-mail: maria.gomez@cmc.pr.gov.br
+mail: maria.gomez@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18275
 shadowMax: 365
 homeDirectory: /home/maria.gomez
 
-dn: uid=neusa.fogaca,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=neusa.fogaca,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -198,13 +198,13 @@ displayName:: TmV1c2EgRm9nYcOnYQo=
 sn:: Rm9nYcOnYQo=
 cn:: TmV1c2EgRm9nYcOnYQo=
 givenName: Neusa
-mail: neusa.fogaca@cmc.pr.gov.br
+mail: neusa.fogaca@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18285
 shadowMax: 365
 homeDirectory: /home/neusa.fogaca
 
-dn: uid=tiago.boga,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=tiago.boga,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -218,13 +218,13 @@ displayName: Tiago Boga
 sn: Boga
 cn: Tiago Boga
 givenName: Tiago
-mail: tiago.boga@cmc.pr.gov.br
+mail: tiago.boga@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18295
 shadowMax: 365
 homeDirectory: /home/tiago.boga
 
-dn: uid=uriel.villaverde,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=uriel.villaverde,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -238,13 +238,13 @@ displayName: Uriel Villaverde
 sn: Villaverde
 cn: Uriel Villaverde
 givenName: Uriel
-mail: uriel.villaverde@cmc.pr.gov.br
+mail: uriel.villaverde@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18305
 shadowMax: 365
 homeDirectory: /home/uriel.villaverde
 
-dn: uid=xenia.tabosa,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=xenia.tabosa,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -258,13 +258,13 @@ displayName:: WMOpbmlhIFRhYm9zYQo=
 sn: Tabosa
 cn:: WMOpbmlhIFRhYm9zYQo=
 givenName:: WMOpbmlhCg==
-mail: xenia.tabosa@cmc.pr.gov.br
+mail: xenia.tabosa@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18315
 shadowMax: 365
 homeDirectory: /home/xenia.tabosa
 
-dn: uid=adelio.figueiredo,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=adelio.figueiredo,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -278,13 +278,13 @@ displayName:: QWTDqWxpbyBGaWd1ZWlyZWRvCg==
 sn: Figueiredo
 cn:: QWTDqWxpbyBGaWd1ZWlyZWRvCg==
 givenName:: QWTDqWxpbwo=
-mail: adelio.figueiredo@cmc.pr.gov.br
+mail: adelio.figueiredo@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18325
 shadowMax: 365
 homeDirectory: /home/adelio.figueiredo
 
-dn: uid=almeno.quinta,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=almeno.quinta,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -298,13 +298,13 @@ displayName: Almeno Quinta
 sn: Quinta
 cn: Almeno Quinta
 givenName: Almeno
-mail: almeno.quinta@cmc.pr.gov.br
+mail: almeno.quinta@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18335
 shadowMax: 365
 homeDirectory: /home/almeno.quinta
 
-dn: uid=daniela.bulhosa,ou=usuarios,dc=cmc,dc=pr,dc=gov,dc=br
+dn: uid=daniela.bulhosa,ou=usuarios,dc=gws,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -318,7 +318,7 @@ displayName: Daniela Bulhosa
 sn: Bulhosa
 cn: Daniela Bulhosa
 givenName: Daniela
-mail: daniela.bulhosa@cmc.pr.gov.br
+mail: daniela.bulhosa@gws.com
 userPassword: {SHA}p4sEDlSko1mcAQQRL6AeSoW20fo=
 shadowLastChange: 18345
 shadowMax: 365
